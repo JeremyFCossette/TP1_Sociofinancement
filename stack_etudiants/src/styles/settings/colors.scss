@@ -1,0 +1,23 @@
+/* ==========================================================================
+   COLORS / SETTINGS
+   ========================================================================== */
+
+:root {
+    // Couleur de base
+    --color-white: #fff;
+    --color-black: #0c0f0a;
+
+    // Couleurs du projet
+    --color-primary: rgba(79, 142, 177);
+    --color-primary-lighter: rgba(79, 142, 177, 0.25);
+    --color-secondary: rgba(255, 243, 230, 0.5);
+
+    //Couleurs typo du projet
+    --Color-typo-fonce:#00485f;
+    --Color-typo-pale:#3D424F;
+    --Color-typo-moyen:#BBC8EB;
+    --Color-typo-tresPale:#81848D;
+    --Color-typo-inversee-tresPale:#fff;
+    --Color-typo-inversee-pale:#BBC8EB;
+    --Color-typo-sousTitre:#2625BF;
+}
