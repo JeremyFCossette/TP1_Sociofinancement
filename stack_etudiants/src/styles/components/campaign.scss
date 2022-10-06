@@ -1,0 +1,45 @@
+.campaign {
+    background-color: var(--color-white);
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        padding-top: var(--spacing-xl);
+        padding-bottom: var(--spacing-xl);
+
+        .media {
+            grid-column: span 7;
+
+            .image {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                position: relative;
+
+                :first-child {
+                    width: 100%;
+                }
+    
+                .button_play {
+                    background-color: var(--color-fond-boutonplay);
+                    border-radius: 45px;
+                    display: flex;
+                    height: 80px;
+                    position: absolute;
+                    width: 80px;
+                }
+    
+                .triangle {
+                    margin-left: 5px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .information {
+            grid-column: span 5;
+        }
+
+    }
+}

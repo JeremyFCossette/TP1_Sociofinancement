@@ -1,0 +1,55 @@
+.header {
+    align-items: center;
+    background-color: var(--color-fond-entete);
+    color: var(--color-white);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 15px 90px 15px 90px;
+
+    nav {
+        font-weight: bold;
+        display: flex;
+
+        .logo {
+            display: flex;
+        }
+
+        ul {
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            margin: 0px;
+            padding-left: 0px;
+
+            li {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+
+    .menu_find {
+        justify-content: left;
+    }
+
+    .menu_account {
+        justify-content: right;
+    }
+
+    .searchbar_container {
+        display: flex;
+        justify-content: center;
+
+        .searchbar {
+            align-items: center;
+            background-color: var(--color-fond-rechercher);
+            border-radius: 8px;
+            color: var(--color-typo-rechercher);
+            display: flex;
+            padding: 3px;
+            width: 500px;
+        }
+    }
+
+}
