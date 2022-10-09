@@ -2,44 +2,165 @@
     background-color: var(--color-white);
 
     .wrapper {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
         padding-top: var(--spacing-xl);
         padding-bottom: var(--spacing-xl);
+    }
+}
 
-        .media {
-            grid-column: span 7;
+.campaign_grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(12, 1fr);
+}
 
-            .image {
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                position: relative;
+.campaign_media {
+    grid-column: span 7;
 
-                :first-child {
-                    width: 100%;
-                }
-    
-                .button_play {
-                    background-color: var(--color-fond-boutonplay);
-                    border-radius: 45px;
-                    display: flex;
-                    height: 80px;
-                    position: absolute;
-                    width: 80px;
-                }
-    
-                .triangle {
-                    margin-left: 5px;
-                    position: absolute;
-                }
+    .image {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        :first-child {
+            width: 100%;
+        }
+
+        .buttonplay {
+            align-items: center;
+            background-color: var(--color-fond-buttonplay);
+            border-radius: 45px;
+            display: flex;
+            height: 80px;
+            justify-content: center;
+            position: absolute;
+            width: 80px;
+
+            .triangle {
+                height: 25px;
+                margin-left: 5px;
+                width: 25px;
+            }
+        }
+    }
+}
+
+.campaign_information {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 5;
+    justify-content: space-around;
+    padding-right: 100px;
+
+    .titles {
+        h3 {
+            font-weight: normal;
+            margin-top: 5px;
+        }
+    }
+
+    .objective {
+        .progressbar {
+            background-color: var(--color-fond-about);
+            border-radius: 10px;
+            height: 15px;
+
+            .completion {
+                background-color: var(--color-fond-header);
+                border-radius: 10px;
+                height: 15px;
+                width: 80%;
             }
         }
 
-        .information {
-            grid-column: span 5;
+        p {
+            font-size: var(--font-size-header);
+            font-style: italic;
+            margin: 5px 0px 0px 0px;
+        }
+    }
+
+    .contribution {
+        color: var(--color-type-contribution);
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(2, 1fr);
+
+        div {
+            background-color: var(--color-fond-cards);
+            border-radius: 10px;
+            font-size: 18px;
+            line-height: 24px;
+            padding: 20px 15px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .buttons {
+        display: grid;
+        gap: 8px;
+        grid-template-columns: repeat(8, 1fr);
+
+        a {
+            align-items: center;
+            border-radius: 10px;
+            color: var(--color-typo-fonce);
+            display: flex;
+            font-size: var(--font-size-button-small);
+            font-weight: 600;
+            gap: 10px;
+            height: 50px;
+            justify-content: center;
         }
 
+        .contribute {
+            background-color: var(--color-fond-header);
+            border: 0px;
+            color: var(--color-white);
+            font-size: var(--font-size-button);
+            grid-column: span 8;
+            text-transform: uppercase;
+        }
+
+        .favorite {
+            grid-column: span 3;
+            background-color: var(--color-white);
+            border-color: var(--color-border-button);
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        .share {
+            grid-column: span 3;
+            background-color: var(--color-white);
+            border-color: var(--color-border-button);
+            border-style: solid;
+            border-width: 2px;
+        }
+
+        .facebook,
+        .twitter {
+            grid-column: span 1;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.company {
+    align-items: center;
+    display: flex;
+    font-size: var(--font-size-header);
+    font-style: italic;
+    margin-top: 12px;
+
+    .location {
+        align-items: center;
+        display: flex;
+        gap: 5px;
+        margin-left: 25px;
     }
 }
