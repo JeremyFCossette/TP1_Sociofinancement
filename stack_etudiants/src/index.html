@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>À renommer</title>
+        <title>Kickgogo</title>
 
         <link rel="stylesheet" href="styles/main.css" />
 
@@ -12,7 +12,7 @@
 
     <body>
         <header class="header">
-            <nav class="header_menu header_menufind">
+            <nav class="header_menu header_menu_find">
                 <ul>
                     <a class="logo" href="#"><img src="assets/images/logo.svg" /></a>
                     <li><a href="#">Découvrir</a></li>
@@ -24,7 +24,7 @@
                 <div class="searchbar"><img src="assets/images/search.svg" /> Rechercher</div>
             </div>
 
-            <nav class="header_menu header_menuaccount">
+            <nav class="header_menu header_menu_account">
                 <ul>
                     <li><a href="#">Connexion</a></li>
                     <li><a href="#">Inscription</a></li>
@@ -38,7 +38,7 @@
                     <div class="campaign_media">
                         <div class="image">
                             <img src="assets/images/video.png" />
-                            <div class="buttonplay"><img class="triangle" src="assets/images/triangle.svg" /></div>
+                            <a class="buttonplay" href="#"><img class="triangle" src="assets/images/triangle.svg" /></a>
                         </div>
                     </div>
 
@@ -54,15 +54,15 @@
                         </div>
 
                         <div class="contribution">
-                            <div><strong>1200</strong><br />contributeurs</div>
-                            <div>
-                                <strong>25</strong> jours <br />
-                                avant la fin
-                            </div>
+                            <span><strong>1200</strong><br />CONTRIBUTEURS</span>
+                            <span>
+                                <strong>25</strong> JOURS <br />
+                                AVANT LA FIN
+                            </span>
                         </div>
 
                         <div class="buttons">
-                            <a class="contribute" href="#">Contribuer</a>
+                            <a class="contribute" href="#">CONTRIBUER</a>
                             <a class="favorite" href="#">
                                 <img src="assets/images/favorite.svg" />
                                 Ajouter au favoris
@@ -76,10 +76,10 @@
 
                 <div class="campaign_company">
                     Leemok Studio
-                    <div class="location">
+                    <span class="location">
                         <img src="assets/images/location.svg" />
                         Seoul, Korea
-                    </div>
+                    </span>
                 </div>
             </div>
         </section>
@@ -97,8 +97,8 @@
                                 aliquam volutpat viverra.
                             </p>
                         </div>
-                        <img class="creator1" src="assets/images/creator1.png" />
-                        <img class="creator2" src="assets/images/creator2.png" />
+                        <img class="creator1" alt="Photo créateur #1" src="assets/images/creator1.png" />
+                        <img class="creator2" alt="Photo créateur #2" src="assets/images/creator2.png" />
                     </div>
 
                     <div class="container">
@@ -111,7 +111,7 @@
 
                     <div class="container">
                         <h2>Caractéristiques</h2>
-                        <ul class="characteristics">
+                        <ul>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
                             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -123,14 +123,126 @@
                     <div class="container">
                         <h2>Photos</h2>
                         <div class="photos">
-                            <img class="photo1" src="assets/images/photo1.png" />
-                            <img class="photo2" src="assets/images/photo2.png" />
-                            <img class="photo3" src="assets/images/photo3.png" />
-                            <img class="photo4" src="assets/images/photo4.png" />
+                            <img class="photo1" alt="Photo gallerie #1" src="assets/images/photo1.png" />
+                            <img class="photo2" alt="Photo gallerie #2" src="assets/images/photo2.png" />
+                            <img class="photo3" alt="Photo gallerie #3" src="assets/images/photo3.png" />
+                            <img class="photo4" alt="Photo gallerie #4" src="assets/images/photo4.png" />
                         </div>
                     </div>
                 </div>
-                <div class="description_cards"></div>
+                <div class="description_fill"></div>
+                <div class="description_cards">
+                    <div class="card">
+                        <h2>25 CA$ ou plus</h2>
+                        <h3>
+                            KIT SUPPORTEURS <br />
+                            1x Column
+                        </h3>
+                        <div class="shipping">
+                            <span>
+                                Livraison : <br />
+                                Juin 2025
+                            </span>
+                            <span class="line"></span>
+                            <span>
+                                Où : <br />
+                                Amérique du <br />
+                                Nord, Europe
+                            </span>
+                        </div>
+                        <div class="contributors">
+                            <span>30 contributeurs</span>
+                            <span>10 disponibles</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>50 CA$ ou plus</h2>
+                        <h3>
+                            KIT ÉLITE <br />
+                            3x Column <br />
+                            1x Napperon Leemok
+                        </h3>
+                        <div class="shipping">
+                            <span>
+                                Livraison : <br />
+                                Juin 2025
+                            </span>
+                            <span class="line"></span>
+                            <span>
+                                Où : <br />
+                                Amérique du <br />
+                                Nord, Europe
+                            </span>
+                        </div>
+                        <div class="contributors">
+                            <span>30 contributeurs</span>
+                            <span>10 disponibles</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h2>200 CA$ ou plus</h2>
+                        <h3>
+                            KIT DIAMAND <br />
+                            10x Column <br />
+                            2x Napperon Leemok
+                        </h3>
+                        <div class="shipping">
+                            <span>
+                                Livraison : <br />
+                                Juin 2025
+                            </span>
+                            <span class="line"></span>
+                            <span>
+                                Où : <br />
+                                Amérique du <br />
+                                Nord, Europe
+                            </span>
+                        </div>
+                        <div class="contributors">
+                            <span>30 contributeurs</span>
+                            <span>10 disponibles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="wrapper">
+                <div class="footer_policies">
+                    <div class="footer_policy_about">
+                        <div>
+                            <h3>À propos de nous</h3>
+
+                            <ul>
+                                <li><a href="#">À propos de nous</a></li>
+                                <li><a href="#">Statistiques</a></li>
+                                <li><a href="#">Carrières</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_policy_assistance">
+                        <div>
+                            <h3>Assistance</h3>
+
+                            <ul>
+                                <li><a href="#">Nos règles</a></li>
+                                <li><a href="#">Centre d'aide</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_policy_others">
+                        <div>
+                            <h3>Autres</h3>
+
+                            <ul>
+                                <li><a href="#">Rechercher</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Application mobile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </body>

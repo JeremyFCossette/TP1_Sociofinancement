@@ -11,9 +11,24 @@
     --color-fond-header: #4f8eb1;
     --color-fond-search: rgba(255, 255, 255, 0.9);
     --color-fond-buttonplay: #d9d9d9;
+    --color-fond-border-button: #c3c2c1;
     --color-fond-about: rgba(79, 142, 177, 0.25);
     --color-fond-cards: rgba(255, 243, 230, 0.5);
-    --color-border-button: #c3c2c1;
+    --color-fond-description: linear-gradient(
+        to right,
+        var(--color-fond-about) 0%,
+        var(--color-fond-about) 60%,
+        var(--color-fond-cards) 60%,
+        var(--color-fond-cards) 100%
+    );
+    --color-fond-card: linear-gradient(
+        180deg,
+        rgba(79, 142, 177, 0.57) 0%,
+        rgba(90, 148, 179, 0.436406) 63.02%,
+        rgba(255, 216, 174, 0.285) 96.35%
+    );
+    --color-fond-boxshadow: rgba(79, 142, 177, 0.1);
+    --color-fond-contributors: rgba(255, 255, 255, 0.5);
 
     //Couleurs typo du projet
     --color-typo-fonce: #00485f;
