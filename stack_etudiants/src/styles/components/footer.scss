@@ -21,19 +21,35 @@
         list-style: none;
         padding-left: 0px;
     }
+
+    .about {
+        display: flex;
+        justify-content: start;
+    }
+
+    .assistance {
+        display: flex;
+        justify-content: center;
+    }
+
+    .others {
+        display: flex;
+        justify-content: end;
+    }
 }
 
-.footer_policy_about {
+.footer_copyright {
+    align-items: center;
     display: flex;
-    justify-content: start;
-}
-
-.footer_policy_assistance {
-    display: flex;
+    font-size: var(--font-size-header);
+    gap: 10px;
     justify-content: center;
+    margin-top: 10px;
 }
 
-.footer_policy_others {
+.footer_buttons {
     display: flex;
-    justify-content: end;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
 }

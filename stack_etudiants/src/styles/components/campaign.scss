@@ -82,13 +82,13 @@
 
     .contribution {
         color: var(--color-type-contribution);
-        display: grid;
+        display: flex;
         gap: 15px;
-        grid-template-columns: repeat(2, 1fr);
 
         span {
             background-color: var(--color-fond-cards);
             border-radius: 10px;
+            flex: 1;
             font-size: 18px;
             line-height: 125%;
             padding: 20px 15px;
@@ -117,7 +117,7 @@
             background-color: var(--color-fond-header);
             border: 0px;
             color: var(--color-white);
-            font-size: var(--font-size-button);
+            font-size: var(--font-size-header);
             grid-column: span 8;
         }
 
