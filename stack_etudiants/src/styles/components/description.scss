@@ -129,7 +129,7 @@
             text-align: center;
 
             .line {
-                border-left: 2px solid var(--color-white);
+                border-left: 1px solid var(--color-white);
                 height: 90px;
             }
         }
@@ -141,10 +141,12 @@
             text-align: center;
             width: 100%;
 
-            span {
+            p {
                 background-color: var(--color-fond-contributors);
                 border-radius: 10px;
                 flex: 1;
+                margin-bottom: 0px;
+                margin-top: 0px;
                 padding: 4px 6px;
             }
         }

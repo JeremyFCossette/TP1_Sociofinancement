@@ -85,14 +85,17 @@
         display: flex;
         gap: 15px;
 
-        span {
+        p {
             background-color: var(--color-fond-cards);
             border-radius: 10px;
             flex: 1;
             font-size: 18px;
             line-height: 125%;
+            margin-bottom: 0px;
+            margin-top: 0px;
             padding: 20px 15px;
             text-align: center;
+            vertical-align: middle;
         }
     }
 
@@ -108,9 +111,10 @@
             display: flex;
             font-size: var(--font-size-button-small);
             font-weight: 600;
-            gap: 10px;
+            gap: 5px;
             height: 50px;
             justify-content: center;
+            text-align: center;
         }
 
         .contribute {
@@ -145,6 +149,11 @@
     font-size: var(--font-size-header);
     font-style: italic;
     margin-top: 8px;
+
+    p {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
 
     .location {
         align-items: center;
