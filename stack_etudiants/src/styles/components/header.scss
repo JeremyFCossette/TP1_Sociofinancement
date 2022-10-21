@@ -1,4 +1,4 @@
-.header {
+.header_menu {
     align-items: center;
     background-color: var(--color-fond-header);
     color: var(--color-white);
@@ -6,51 +6,51 @@
     font-size: var(--font-size-header);
     grid-template-columns: repeat(3, 1fr);
     padding: 15px 90px 15px 90px;
-}
 
-.header_searchcontainer {
-    display: flex;
-    justify-content: center;
-
-    .searchbar {
-        align-items: center;
-        background-color: var(--color-fond-search);
-        border-radius: 8px;
-        color: var(--color-typo-search);
+    .searchcontainer {
         display: flex;
-        font-size: var(--font-size-header);
-        padding: 3px;
-        width: 500px;
-    }
-}
-
-.header_menu {
-    font-weight: 600;
-    display: flex;
-
-    .logo {
-        display: flex;
-    }
-
-    ul {
-        align-items: center;
-        display: flex;
-        gap: 25px;
-        list-style: none;
-        margin: 0px;
-        padding-left: 0px;
-
-        li {
-            display: inline-block;
-            text-align: center;
+        justify-content: center;
+    
+        .searchbar {
+            align-items: center;
+            background-color: var(--color-fond-search);
+            border-radius: 8px;
+            color: var(--color-typo-search);
+            display: flex;
+            font-size: var(--font-size-header);
+            padding: 3px;
+            width: 500px;
         }
     }
-}
-
-.header_menu_find {
-    justify-content: left;
-}
-
-.header_menu_account {
-    justify-content: right;
+    
+    .menu {
+        font-weight: 600;
+        display: flex;
+    
+        .logo {
+            display: flex;
+        }
+    
+        ul {
+            align-items: center;
+            display: flex;
+            gap: 25px;
+            list-style: none;
+            margin: 0px;
+            padding-left: 0px;
+    
+            li {
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+    
+    .find {
+        justify-content: left;
+    }
+    
+    .account {
+        justify-content: right;
+    }
 }
